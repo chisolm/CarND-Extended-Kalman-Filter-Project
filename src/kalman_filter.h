@@ -20,6 +20,9 @@ public:
   // measurement matrix
   Eigen::MatrixXd H_;
 
+  // measurement matrix transpose for laser
+  Eigen::MatrixXd H_laser_t_;
+
   // measurement covariance matrix
   Eigen::MatrixXd R_;
 
